@@ -1,7 +1,7 @@
 // Birlashtirilgan Apps Script (Google Sheets + amoCRM) URL.
 // amocrm-appscript.gs ni deploy qilib, /exec URL ni shu yerga qo'ying.
 const APPSCRIPT_URL =
-  "https://script.google.com/macros/s/AKfycbxdg8RK2oXrixptrvQCvZm2yTNqhKIALF_3XbaLI_xqZ9b-OqLPTpc8EAsNV13BFFupew/exec";
+  "https://script.google.com/macros/s/AKfycbyaaqrFvQsOAEC8j3YNzSA1g3wTAR-HX165-UMXXtjj4hAyHMq0yvFhnYA-8AyQJPgRMg/exec";
 
 async function sendFormData() {
   const formDataRaw = localStorage.getItem("formData");
