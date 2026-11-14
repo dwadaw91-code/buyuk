@@ -937,6 +937,22 @@ src="https://www.facebook.com/tr?id=1597491418699315&ev=PageView&noscript=1"
 
         </div>
     </div>
+
+    <script defer>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Sahifadagi barcha 'registerBtn' klassiga ega tugmalarni topamiz
+    const registerButtons = document.querySelectorAll(".registerBtn");
+
+    registerButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        // Meta Pixel mavjudligini tekshirib, event yuboramiz
+        if (typeof fbq === "function") {
+          fbq("track", "CompleteRegistration");
+        }
+      });
+    });
+  });
+</script>
     <script defer src="/js/phoneFormatter.js"></script>
     <script defer src="/js/app.js"></script>
 </body>
