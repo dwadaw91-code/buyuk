@@ -1,0 +1,947 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buyuk Zamon</title>
+    <style>
+    *{margin:0;padding:0;box-sizing:border-box}html,body{overflow-x:clip;background-color:#000}.hero__intro{background-color:#D0FE16;max-width:390px;width:100%;display:flex;padding:0 6px;margin:0 auto;flex-direction:column;align-items:center;justify-content:center;margin-bottom:40px;padding-top:8px;padding-bottom:7px;top:0;z-index:1000}.hero__intro-text{margin-bottom:8px;font-family:"Mona Sans",sans-serif;font-weight:800;font-size:12px;line-height:15px;text-align:center}.hero__intro-button{max-width:353px;width:100%;border-radius:100px;color:white;font-family:Inter,sans-serif;font-weight:800;font-size:13.1px;line-height:15.78px;text-align:center;padding:7px 0 8px 0;background-color:black;border:none;cursor:pointer}.hero__speaker-image{position:relative;z-index:3}.hero__background-image{position:absolute;top:-40px;max-width:390px;width:100%}.hero__title{font-family:Inter,sans-serif;font-weight:700;font-size:clamp(14.1px,4.6vw,18.1px);padding-top:15px;line-height:clamp(24.8px,5vw,28.8px);text-align:center;margin-bottom:10px;color:white}.hero__eyebrow{color:#D0FE17}.hero__description{font-family:"Mona Sans",sans-serif;font-weight:400;font-size:clamp(13px,4.2vw,14px);line-height:21px;text-align:center;color:white;margin-bottom:-10px}.hero__benefits{display:flex;color:white;margin-top:65px;gap:50px}.hero__benefit{display:flex;align-items:center;gap:7px}.hero__benefit-text{font-family:"Mona Sans",sans-serif;font-weight:700;font-size:12px;line-height:15px;opacity:80%}.plan{padding-top:40px;padding-bottom:32px}.plan__title{font-family:Inter,sans-serif;font-weight:700;font-size:22.5px;line-height:28.8px;margin-bottom:41px;text-align:center;color:white}.plan__title span{color:#D0FE17}.plan__days{display:flex;flex-direction:column;gap:35px;color:white;align-items:center;justify-content:center}.plan__day{border-radius:10px;max-width:350px;background-color:#0b0e02c1;width:100%;padding:23px 10px 10px 10px;border:1px solid #FFFFFF0D;position:relative;list-style:none}.plan__day-number{font-family:Inter,sans-serif;font-weight:800;font-size:30px;padding-left:7px;line-height:25px;background:linear-gradient(0deg,#FAFFE8 0%,#D0FE17 62.29%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;color:transparent;margin-bottom:20px}.plan__day-title{font-family:Inter,sans-serif;font-weight:700;font-size:27.5px;padding-left:7px;margin-bottom:23px;line-height:28.8px}.plan__date{margin-bottom:15px;display:flex;align-items:center;gap:5px;font-family:Inter,sans-serif;padding-left:7px;font-weight:500;font-size:14px;line-height:16.8px;opacity:65%}.plan__tasks{list-style:none;display:flex;flex-direction:column;position:relative;z-index:4;gap:10px}.plan__task{display:flex;gap:15px;padding:20px 11px 20px 15px;align-items:center;height:88px;justify-content:start;border-radius:8px;max-width:330px;width:100%;background-color:#00000080}.plan__task p{font-family:"Mona Sans",sans-serif;font-weight:400;font-size:14px;line-height:19.6px}.plan__bottom{position:absolute;bottom:0;height:392px;transform:translateX(-50%);left:50%;border-radius:0 0 10px 10px;z-index:2}.button{max-width:350px;width:100%;border-radius:50px;background-color:#D0FE16;box-shadow:0px 0px 20px 0px #8DB000;color:#000;font-family:Inter,sans-serif;font-weight:700;font-size:20px;line-height:18.02px;text-align:center;padding:20px 0;border:none;cursor:pointer;margin:0 auto;display:flex;align-items:center;justify-content:center}
+    </style>
+   <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1646035107568340');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1646035107568340&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+    <link rel="preload" as="style" href="./css/main.css" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./css/main.css">
+    </noscript>
+</head>
+
+<body>
+    <main class="page">
+        <div class="hero__intro">
+            <p class="hero__intro-text">Biznes boshlash va rivojlantirish bo’yicha <br> 3 kunlik bepul intensiv
+                qilyamiz…</p>
+            <button class="hero__intro-button registerBtn">Bepul qatnashish uchun ro’yxatdan o’ting</button>
+        </div>
+        <section class="hero">
+            <div class="container">
+                <img class="hero__speaker-image" src="/images/speakerMain.avif" loading="lazy" decoding="async"
+                    width="390" height="301" alt="speaker">
+                <img class="hero__background-image" src="/images/bg.avif" loading="lazy" decoding="async" width="390"
+                    height="240" alt="speaker">
+                <h1 class="hero__title"><span class="hero__eyebrow">SIZGA CHAQIRIQ:</span> BIZNESNI NOLDAN <br> BOSHLASH
+                    YOKI MAVJUD BIZNESINGIZNI <br>
+                    RIVOJLANTIRISHGA TAYYORMISIZ?
+                </h1>
+
+                <p class="hero__description">Dostonjon Soyibov bilan biznes boshlash, <br> mijozlarni jalb qilish va
+                    biznesni tizimli
+                    rivojlantirish <br> bo‘yicha amaliy bilimlarga ega bo‘ling.</p>
+
+                <button class="button registerBtn hero__button" style="transform: translateY(40px);">BEPUL
+                    QATNASHISH</button>
+
+                <div class="hero__benefits">
+                    <div class="hero__benefit">
+                        <svg class="hero__benefit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2210_43)">
+                                <path
+                                    d="M20.25 4.50013C20.25 4.25213 20.128 4.02113 19.924 3.88113C19.72 3.74013 19.46 3.71013 19.229 3.80013C17.813 4.35113 15.083 5.22313 12 5.22313C8.917 5.22313 6.188 4.35113 4.771 3.80213C4.54 3.71213 4.281 3.74213 4.077 3.88213C3.872 4.02113 3.75 4.25313 3.75 4.50013V9.72813C3.75 16.3691 7.444 21.7501 12 21.7501C16.556 21.7501 20.25 16.3691 20.25 9.73013V4.50013Z"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#8DB000" />
+                                <path
+                                    d="M13.5 12C13.912 11.54 14.708 11.25 15.375 11.25C16.042 11.25 16.838 11.54 17.25 12"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#8DB000" />
+                                <path d="M6.75 12C7.162 11.54 7.958 11.25 8.625 11.25C9.292 11.25 10.088 11.54 10.5 12"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#8DB000" />
+                                <path
+                                    d="M15.2208 15.75C14.4218 16.701 13.2428 17.25 11.9998 17.25C10.7578 17.25 9.57881 16.701 8.77881 15.75"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#8DB000" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2210_43">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p class="hero__benefit-text">Yuzingizni <br> ko’rsatmaysiz</p>
+                    </div>
+                    <div class="hero__benefit">
+                        <svg class="hero__benefit-icon" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_2210_51)">
+                                <path d="M10.5 10.5H13.5" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke="#8DB000" />
+                                <path
+                                    d="M3.75 19.5C3.336 19.5 3 19.164 3 18.75V6.75C3 6.336 3.336 6 3.75 6H20.25C20.664 6 21 6.336 21 6.75V18.75C21 19.164 20.664 19.5 20.25 19.5H3.75Z"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#8DB000" />
+                                <path d="M15.75 6V4.5C15.75 3.672 15.078 3 14.25 3H9.75C8.922 3 8.25 3.672 8.25 4.5V6"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#8DB000" />
+                                <path
+                                    d="M21 11.092C18.265 12.675 15.16 13.505 12 13.5C8.84 13.505 5.735 12.675 3 11.093"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#8DB000" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_2210_51">
+                                    <rect width="24" height="24" fill="white" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+
+                        <p class="hero__benefit-text">Tajriba talab <br> qilinmaydi</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="plan">
+            <div class="container">
+                <h1 class="plan__title"><span class="plan__eyebrow">3 kunlik reja</span> <br>
+                    Har kuni bitta aniq natija</h1>
+
+                <ul class="plan__days">
+                    <li class="plan__day">
+                        <h2 class="plan__day-number">1-kun</h2>
+                        <h3 class="plan__day-title">Biznesni 0 dan boshlash</h3>
+
+                        <div class="plan__date">
+                            <svg class="plan__date-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2210_70)">
+                                    <path
+                                        d="M3.375 15.1875C3.0645 15.1875 2.8125 14.9355 2.8125 14.625V3.375C2.8125 3.0645 3.0645 2.8125 3.375 2.8125H14.625C14.9355 2.8125 15.1875 3.0645 15.1875 3.375V14.625C15.1875 14.9355 14.9355 15.1875 14.625 15.1875H3.375Z"
+                                        stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path d="M12.375 1.6875V3.9375" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                    <path d="M5.625 1.6875V3.9375" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                    <path d="M2.8125 6.1875H15.1875" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2210_70">
+                                        <rect width="18" height="18" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                          4-Dekabr | 19:00dan 22:00gacha
+                        </div>
+
+                        <ul class="plan__tasks">
+                            <li class="plan__task">
+                                <svg class="plan__task-icon" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M3.75 12.7354C3.75 7.55785 7.9475 3.36035 13.125 3.36035C18.3025 3.36035 22.5 7.55785 22.5 12.7354C22.5 17.9129 18.3025 22.1104 13.125 22.1104C7.9475 22.1104 3.75 17.9129 3.75 12.7354Z"
+                                        stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="#D0FE17" />
+                                    <path d="M19.7539 19.3641L26.2502 25.8604" stroke-width="1.875"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                </svg>
+                                <p> Biznes g‘oyani qanday tanlash va <br> to‘g‘ri yo‘nalishni aniqlash.</p>
+                            </li>
+                            <li class="plan__task" style="padding-left: 18px;">
+                                <svg class="plan__task-icon" width="23" height="23" viewBox="0 0 20 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0.5" y="0.5" width="19" height="19" rx="2.5" stroke="#D0FE17" />
+                                    <line x1="3.1665" y1="5.83301" x2="16.8332" y2="5.83301" stroke-linecap="round"
+                                        stroke="#D0FE17" />
+                                    <line x1="3.1665" y1="10.1669" x2="16.8332" y2="10.1669" stroke-linecap="round"
+                                        stroke="#D0FE17" />
+                                    <line x1="3.1665" y1="14.5" x2="16.8332" y2="14.5" stroke-linecap="round"
+                                        stroke="#D0FE17" />
+                                </svg>
+                                <p> Kam mablag‘ bilan boshlash mumkin bo‘lgan 3 ta biznes modeli.</p>
+                            </li>
+                            <li class="plan__task">
+                                <svg class="plan__task-icon" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2210_96)">
+                                        <path
+                                            d="M5.625 15.0508C5.625 9.87328 9.8225 5.67578 15 5.67578C20.1775 5.67578 24.375 9.87328 24.375 15.0508C24.375 20.2283 20.1775 24.4258 15 24.4258C9.8225 24.4258 5.625 20.2283 5.625 15.0508Z"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path d="M15 15.0508H27.1875" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M15 15.0507L8.90625 4.49573" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M15 15.0508L8.90625 25.6058" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M15 5.67578V2.86328" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M6.88107 10.3633L4.44482 8.95703" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M5.625 15.0508H2.8125" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M6.88107 19.7383L4.44482 21.1445" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M15 24.4258V27.2383" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M19.6875 23.1696L21.0938 25.6058" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M23.1187 19.7383L25.5549 21.1445" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M23.1187 10.3633L25.5549 8.95703" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M19.6875 6.93198L21.0938 4.49573" stroke-width="1.875"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2210_96">
+                                            <rect width="30" height="30" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p> Birinchi mijozni topish: avval mijoz, <br> keyin xarajat.</p>
+                            </li>
+                        </ul>
+
+                        <img class="plan__bottom" src="/images/bottomGradient.avif" loading="lazy" decoding="async"
+                            width="350" height="225" alt="bottomGradient">
+                    </li>
+
+                    <!-- Linee 22 -->
+
+                    <li class="plan__day">
+                        <h2 class="plan__day-number">2-kun</h2>
+                        <h3 class="plan__day-title">Biznesni boshlash qadamlari</h3>
+
+                        <div class="plan__date">
+                            <svg class="plan__date-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2210_70)">
+                                    <path
+                                        d="M3.375 15.1875C3.0645 15.1875 2.8125 14.9355 2.8125 14.625V3.375C2.8125 3.0645 3.0645 2.8125 3.375 2.8125H14.625C14.9355 2.8125 15.1875 3.0645 15.1875 3.375V14.625C15.1875 14.9355 14.9355 15.1875 14.625 15.1875H3.375Z"
+                                        stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path d="M12.375 1.6875V3.9375" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                    <path d="M5.625 1.6875V3.9375" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                    <path d="M2.8125 6.1875H15.1875" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2210_70">
+                                        <rect width="18" height="18" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                           5-Dekabr | 11:00dan 18:00gacha 
+                        </div>
+
+                        <ul class="plan__tasks">
+                            <li class="plan__task">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2210_130)">
+                                        <g clip-path="url(#clip1_2210_130)">
+                                            <path d="M10.3125 26.7979H19.6875" stroke-width="1.875"
+                                                stroke-linecap="round" stroke-linejoin="round" stroke="#D0FE17" />
+                                            <path
+                                                d="M9.22264 19.1807C6.96514 17.4169 5.63889 14.7169 5.62514 11.8507C5.59764 6.76941 9.69389 2.54066 14.7739 2.42316C18.8114 2.32566 22.4589 4.82442 23.8239 8.62566C25.1901 12.4269 23.9676 16.6757 20.7901 19.1694C20.0976 19.7069 19.6914 20.5319 19.6876 21.4082V22.1107C19.6876 22.6282 19.2676 23.0482 18.7501 23.0482H11.2501C10.7326 23.0482 10.3126 22.6282 10.3126 22.1107V21.4082C10.3114 20.5369 9.91014 19.7157 9.22264 19.1807Z"
+                                                stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke="#D0FE17" />
+                                            <path d="M15.9375 6.17285C18.2812 6.56785 20.2275 8.5166 20.625 10.8604"
+                                                stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke="#D0FE17" />
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2210_130">
+                                            <rect width="30" height="30" fill="white" />
+                                        </clipPath>
+                                        <clipPath id="clip1_2210_130">
+                                            <rect width="30" height="30" fill="white"
+                                                transform="translate(0 -0.389648)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <p> Biznes boshlashda yo‘l qo‘yiladigan 5 ta katta xato.</p>
+                            </li>
+                            <li class="plan__task" style="padding-left: 18px;">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2210_140)">
+                                        <path d="M22.5 14.0625C24.7138 14.0613 26.7988 15.1038 28.125 16.875"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path d="M1.875 16.875C3.20125 15.1038 5.28625 14.0613 7.5 14.0625"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path
+                                            d="M10.3125 16.875C10.3125 14.2862 12.4112 12.1875 15 12.1875C17.5888 12.1875 19.6875 14.2862 19.6875 16.875C19.6875 19.4638 17.5888 21.5625 15 21.5625C12.4112 21.5625 10.3125 19.4638 10.3125 16.875Z"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path
+                                            d="M8.4375 25.3125C9.80625 22.9888 12.3025 21.5625 15 21.5625C17.6975 21.5625 20.1937 22.9888 21.5625 25.3125"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path
+                                            d="M18.8677 9.37504C19.3552 7.48879 21.2052 6.29004 23.1264 6.61629C25.0477 6.94254 26.3989 8.68504 26.2352 10.6275C26.0727 12.5688 24.4489 14.0625 22.5002 14.0625"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path
+                                            d="M7.49989 14.0625C5.55114 14.0625 3.92739 12.5688 3.76489 10.6275C3.60114 8.68504 4.95239 6.94254 6.87364 6.61629C8.79364 6.29004 10.6449 7.48879 11.1324 9.37504"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2210_140">
+                                            <rect width="30" height="30" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <p> Biznesni boshlash uchun birinchi 7 ta muhim qadam.</p>
+                            </li>
+                            <li class="plan__task">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8 12.0508C8 8.18491 11.1341 5.05078 15 5.05078C18.8659 5.05078 22 8.18491 22 12.0508C22 15.9166 18.8659 19.0508 15 19.0508C11.1341 19.0508 8 15.9166 8 12.0508Z"
+                                        stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="#D0FE17" />
+                                    <path
+                                        d="M5 25.0508C7.08571 21.3328 10.8895 19.0508 15 19.0508C19.1105 19.0508 22.9143 21.3328 25 25.0508"
+                                        stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="#D0FE17" />
+                                </svg>
+
+                                <p>30 kun ichida biznesni yo‘lga qo‘yish xaritasi.</p>
+                            </li>
+                        </ul>
+
+                        <img class="plan__bottom" src="/images/bottomGradient.avif" loading="lazy" decoding="async"
+                            width="350" height="225" alt="bottomGradient">
+                    </li>
+
+
+                    <!-- Lineee 33 -->
+
+                    <li class="plan__day">
+                        <h2 class="plan__day-number">3-kun</h2>
+                        <h3 class="plan__day-title">Biznesni rivojlantirish va kengaytirish</h3>
+
+                        <div class="plan__date">
+                            <svg class="plan__date-icon" width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_2210_70)">
+                                    <path
+                                        d="M3.375 15.1875C3.0645 15.1875 2.8125 14.9355 2.8125 14.625V3.375C2.8125 3.0645 3.0645 2.8125 3.375 2.8125H14.625C14.9355 2.8125 15.1875 3.0645 15.1875 3.375V14.625C15.1875 14.9355 14.9355 15.1875 14.625 15.1875H3.375Z"
+                                        stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path d="M12.375 1.6875V3.9375" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                    <path d="M5.625 1.6875V3.9375" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                    <path d="M2.8125 6.1875H15.1875" stroke-width="0.75" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2210_70">
+                                        <rect width="18" height="18" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                          6-Dekabr | 11:00dan 18:00gacha 
+                        </div>
+
+                        <ul class="plan__tasks">
+                            <li class="plan__task">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2210_175)">
+                                        <path
+                                            d="M22.3962 13.2287C25.2087 10.4162 25.3838 7.07123 25.2963 5.57873C25.2663 5.10873 24.8912 4.73373 24.4212 4.70373C22.9287 4.61623 19.585 4.78998 16.7712 7.60373L9.375 15L15 20.625L22.3962 13.2287Z"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path
+                                            d="M15.9373 8.4375H8.7123C8.46355 8.4375 8.22604 8.53625 8.04979 8.71125L4.02479 12.7375C3.77479 12.9888 3.68729 13.36 3.79979 13.6962C3.91229 14.0325 4.20479 14.2775 4.55604 14.3275L9.37479 15"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path
+                                            d="M21.5625 14.0625V21.2875C21.5625 21.535 21.4638 21.7738 21.2888 21.9488L17.2625 25.975C17.0112 26.225 16.64 26.3125 16.3037 26.2C15.9675 26.0875 15.7225 25.795 15.6725 25.4437L15 20.625"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path
+                                            d="M11.0812 22.01C10.6275 23.005 9.1 25.3125 4.6875 25.3125C4.6875 20.9 6.995 19.3725 7.99 18.9187"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2210_175">
+                                            <rect width="30" height="30" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <p> Mijozlar oqimini oshirish va savdoni ko‘paytirish.</p>
+                            </li>
+                            <li class="plan__task" style="padding-left: 18px;">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2210_187)">
+                                        <g clip-path="url(#clip1_2210_187)">
+                                            <path d="M15 8.26758V10.1426" stroke-width="1.875" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke="#D0FE17" />
+                                            <path d="M15 19.5176V21.3926" stroke-width="1.875" stroke-linecap="round"
+                                                stroke-linejoin="round" stroke="#D0FE17" />
+                                            <path
+                                                d="M3.75 14.8301C3.75 8.61633 8.78625 3.58008 15 3.58008C21.2138 3.58008 26.25 8.61633 26.25 14.8301C26.25 21.0438 21.2138 26.0801 15 26.0801C8.78625 26.0801 3.75 21.0438 3.75 14.8301Z"
+                                                stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke="#D0FE17" />
+                                            <path
+                                                d="M12.1875 19.5176H16.4062C17.7013 19.5176 18.75 18.4688 18.75 17.1738C18.75 15.8788 17.7013 14.8301 16.4062 14.8301H13.5938C12.2987 14.8301 11.25 13.7813 11.25 12.4863C11.25 11.1913 12.2987 10.1426 13.5938 10.1426H17.8125"
+                                                stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke="#D0FE17" />
+                                        </g>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2210_187">
+                                            <rect width="30" height="30" fill="white" />
+                                        </clipPath>
+                                        <clipPath id="clip1_2210_187">
+                                            <rect width="30" height="30" fill="white"
+                                                transform="translate(0 -0.169922)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+
+                                <p> Biznesdagi tizim: jarayonlar, jamoa va boshqaruv.</p>
+                            </li>
+                            <li class="plan__task">
+                                <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_2210_198)">
+                                        <path
+                                            d="M9.875 20.1237L3.41875 17.745C3.055 17.6113 2.8125 17.2637 2.8125 16.875C2.8125 16.4863 3.055 16.1387 3.41875 16.0037L9.875 13.625L12.2537 7.16875C12.3887 6.805 12.7363 6.5625 13.125 6.5625C13.5137 6.5625 13.8613 6.805 13.995 7.16875L16.3737 13.625L22.83 16.0037C23.195 16.1387 23.4375 16.4863 23.4375 16.875C23.4375 17.2637 23.195 17.6113 22.83 17.745L16.3737 20.1237L13.995 26.58C13.8613 26.945 13.5137 27.1875 13.125 27.1875C12.7363 27.1875 12.3887 26.945 12.2537 26.58L9.875 20.1237Z"
+                                            stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                            stroke="#D0FE17" />
+                                        <path d="M20.625 1.875V7.5" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M26.25 8.4375V12.1875" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M17.8125 4.6875H23.4375" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                        <path d="M24.375 10.3125H28.125" stroke-width="1.875" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke="#D0FE17" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_2210_198">
+                                            <rect width="30" height="30" fill="white" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+
+                                <p>Biznesni keyingi bosqichga olib chiqish strategiyasi.</p>
+                            </li>
+                        </ul>
+
+                        <img class="plan__bottom" src="/images/bottomGradient.avif" loading="lazy" decoding="async"
+                            width="350" height="225" alt="bottomGradient">
+                    </li>
+                </ul>
+                <button class="button registerBtn" style="transform: translateY(40px);">BEPUL QATNASHISH</button>
+            </div>
+        </section>
+
+        <section class="details">
+            <div class="container">
+                <div class="details__content">
+                    <svg class="details__ornament" width="350" height="50" viewBox="0 0 350 50" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g opacity="0.5">
+                            <rect width="350" height="50" fill="url(#pattern0_2210_250)" />
+                        </g>
+                        <defs>
+                            <pattern id="pattern0_2210_250" patternContentUnits="objectBoundingBox" width="1"
+                                height="1">
+                                <use xlink:href="#image0_2210_250" transform="scale(0.00285714 0.02)" />
+                            </pattern>
+                            <image id="image0_2210_250" width="350" height="50" preserveAspectRatio="none"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAAyCAYAAAAUarOPAAAEm0lEQVR4AeycQY7bMAxF1Rygi1n0HL3/KXqOLrroAZrig/kYQ/hFUiSRLfkNQNDmty3y0SN4QeTy9aNdk7XbX9IUu8ntx59v12TWdW0y9CKQ2ChWalueb3p3FHP9YpEMvQgkNoqV2pqOk6EXgcRGsVLfx+/iBfAQgAAEIDCGABvvGM6sAgEIHJ3AwPzYeAfCZikIQAACIsDGKwoYBCAAgYEE2HgHwmYpCEDgfwmsef3l96/2JZnLTZpi1r9ffn5J1m5/ujbZTW5JUwy9CCS2ipXapuenWpKtUp/e5WTUVwQSG8VKnf/9Vi3J+OJ1h/EQgAAEBhF4eo5XM2/JnH/SFFtF18xpslXqU6+SrVJf6p1iq9SXeqfYk/VdZ7lfvUy2d/588boDeAhAAAKDCLDxDgLNMhCAAARMgI3XJPAQmJwA6c9DgI13nl6RKQQgsAgBNt5FGkkZEIDAPASenuNNM2qKGYGOk62ipxlUxVapL/VOsVXqU6+Svay+J+fkxToZ+RWBxEaxUltLvVXMuq5N9m6dL14TxkMAAhAYRIA53id/j1gzkcncv6Qphl4ExCJZqe/7PVQ/P814KmY95abYUXTlmuwo+YlVskfzS7Up9uj9aW3FRt2vXJPxxesO4E9EgFIhsC8BNt59+bM6BCBwQgJsvCdsOiVDAAL7EmDj3Zc/q38S4AgCpyHAxnuaVlMoBCBwFALM8TJn+dTvMacZSMX8gus42VF0zXQmO0p+iZ1izi/lrph1XZtsFl21JJs9f7543UF8JEAQAhB4PQHmeJnjvWqusTe/an3c5+hFwDx6XypzyD0Xn4/i4/V6P2r9NMOrGF+87gAeAhCAwCACbLyDQL90GR4GAQhMTYCNd+r2kTwEIDAjATbeGbtGzhCAwNQE2Hhf1j4eBAEIQOAxAszxMsd76jneNOOqmP99dJzsKHqacVXsKPkldoqdJT/1IhlfvH4D8BCAAAQGEbg7x6uZs2TOr5+P87n1dK9i1n1971+kt/65Puf5RcA8el/q++dQ+3V9/uj6epeSPXq/1+s99xeBnovPSz3+++F8e793/nzxugN4CEAAAoMIsPEOAs0yEIAABExgl43Xi+MhAAEInJEAG+8Zu07NEIDArgTYeHfFz+IQgMAZCXzO8XbzrIaRZtAUs66ZvGTWdW0y6+lexdCLgFgkK7W1pCl2Fj29W4qdpX71Ohn1F4HERrFS9/v/4YvXHcBDAAIQGETg7hxvP//mc+fn896jF4Gei89LZQ7SPHp/FD5pRlixo+TXc/P5WfJTL5I9Wf/13ffzxWvCeAhAAAKDCLDxDgLNMhCAAARMgI3XJPAQgMChCayUHBvvSt2kFghAYAoCbLxTtIkkIQCBlQjcnePVzFsyQ0iaYuhFQCySlbrfHCHrF4HUG8VKbU0zwcms69pkp9G7+X+zGFV/6o1io9Z3vb2/tz5fvCaEhwAEIDCIAHO8H+3q2cetN/9tbHtsPc0QKmZ9e8/22LquTWZ9e8/22Hq6VzHr23u2x+hFYMtke1wqc9ZbJttj+BSBLZPtcan/fn/44jUhPASWIUAhRyfwFwAA//80ZybMAAAABklEQVQDANTyP1HtpqlAAAAAAElFTkSuQmCC" />
+                        </defs>
+                    </svg>
+
+                    <h2 class="details__title"><span class="details__eyebrow">Tafsilotlar</span> <br>
+                        Intensiv haqida qisqacha</h2>
+
+                    <ul class="details__list">
+                        <li class="details__item">
+                            <svg class="details__icon" width="88" height="88" viewBox="0 0 88 88" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="88" height="88" rx="44" fill="url(#paint0_linear_2210_214)" />
+                                <g clip-path="url(#clip0_2210_214)">
+                                    <path
+                                        d="M30.212 57.788C28.486 56.064 29.63 52.44 28.752 50.316C27.842 48.126 24.5 46.344 24.5 44C24.5 41.656 27.842 39.876 28.752 37.684C29.63 35.562 28.486 31.936 30.212 30.212C31.936 28.486 35.562 29.63 37.684 28.752C39.884 27.842 41.656 24.5 44 24.5C46.344 24.5 48.126 27.842 50.316 28.752C52.44 29.63 56.064 28.486 57.788 30.212C59.514 31.936 58.37 35.56 59.248 37.684C60.158 39.884 63.5 41.656 63.5 44C63.5 46.344 60.158 48.126 59.248 50.316C58.37 52.44 59.514 56.064 57.788 57.788C56.064 59.514 52.44 58.37 50.316 59.248C48.126 60.158 46.344 63.5 44 63.5C41.656 63.5 39.876 60.158 37.684 59.248C35.562 58.37 31.936 59.514 30.212 57.788Z"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path
+                                        d="M41.75 53.75C41.75 52.508 42.758 51.5 44 51.5C45.242 51.5 46.25 52.508 46.25 53.75C46.25 54.992 45.242 56 44 56C42.758 56 41.75 54.992 41.75 53.75Z"
+                                        fill="white" />
+                                    <path
+                                        d="M44 47V45.5C47.314 45.5 50 43.148 50 40.25C50 37.352 47.314 35 44 35C40.686 35 38 37.352 38 40.25V41"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2210_214" x1="9.27231e-07" y1="88" x2="88"
+                                        y2="9.27231e-07" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#151A00" />
+                                        <stop offset="1" stop-color="#8DB000" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_2210_214">
+                                        <rect width="48" height="48" fill="white" transform="translate(20 20)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            <h2 class="details__item-title">Nima bo’ladi?</h2>
+                            <p class="details__text">Buyuk Zamon asoschisi Dostonjon <br> Soyibov bilan 3 kunlik bepul
+                                onlayn <br> intensiv.
+                                Biz sizga sotmaymiz, sizni <br> tinglaymiz va birga tahlil qilamiz.</p>
+                        </li>
+
+                        <li class="details__item"
+                            style="background: linear-gradient(119.49deg, #8DB000 0%, #151A00 100%);">
+                            <svg class="details__icon" width="88" height="88" viewBox="0 0 88 88" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="88" height="88" rx="44" fill="white" fill-opacity="0.2" />
+                                <g clip-path="url(#clip0_2210_227)">
+                                    <path
+                                        d="M26 44C26 34.058 34.058 26 44 26C53.942 26 62 34.058 62 44C62 53.942 53.942 62 44 62C34.058 62 26 53.942 26 44Z"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path d="M44 33.5V44H54.5" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2210_227">
+                                        <rect width="48" height="48" fill="white" transform="translate(20 20)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                            <h2 class="details__item-title">Qachon bo’ladi?</h2>
+                            <p class="details__text">4-5-6-Dekabr, Har kuni taxminan <br> 5-6 soat. Aniq vaqt ro’yxatdan o’tganlarga <br> yuboriladi.
+                            </p>
+                        </li>
+
+                        <li class="details__item"
+                            style="background: linear-gradient(308.25deg, #151A00 0%, #3A5200 100%);">
+                            <svg class="details__icon" width="88" height="88" viewBox="0 0 88 88" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="88" height="88" rx="44" fill="url(#paint0_linear_2210_239)" />
+                                <g clip-path="url(#clip0_2210_239)">
+                                    <path
+                                        d="M26 56C25.172 56 24.5 55.328 24.5 54.5V33.5C24.5 32.672 25.172 32 26 32H56C56.828 32 57.5 32.672 57.5 33.5V54.5C57.5 55.328 56.828 56 56 56H26Z"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path d="M57.5 41L66.5 35V53L57.5 47" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2210_239" x1="88" y1="88" x2="0" y2="0"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#151A00" />
+                                        <stop offset="1" stop-color="#8DB000" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_2210_239">
+                                        <rect width="48" height="48" fill="white" transform="translate(20 20)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                            <h2 class="details__item-title">Qayerda bo’ladi?</h2>
+                            <p class="details__text">Onlayn. Telefon yoki kompyuterdan, istalgan shahardan qo'shilasiz.
+                            </p>
+                        </li>
+                    </ul>
+                    <button class="button registerBtn" style="max-width: 330px; margin-bottom: 30px;">BEPUL
+                        QATNASHISH</button>
+
+                    <svg class="details__ornament" width="350" height="50" viewBox="0 0 350 50" fill="none"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g opacity="0.5">
+                            <rect width="350" height="50" fill="url(#pattern0_2210_249)" />
+                        </g>
+                        <defs>
+                            <pattern id="pattern0_2210_249" patternContentUnits="objectBoundingBox" width="1"
+                                height="1">
+                                <use xlink:href="#image0_2210_249" transform="scale(0.00285714 0.02)" />
+                            </pattern>
+                            <image id="image0_2210_249" width="350" height="50" preserveAspectRatio="none"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAAyCAYAAAAUarOPAAAGtElEQVR4AeycUXLbOBBE4Rxiz7H3P8WeYw+x3u4mYTlwO5VUHFKUHmtmMJgnCWCTmcoHyt/GGK+fuMoxeNco4iigD/q0d0Cvxhj//PfXa/PALbTvurbRwb9PCWE9Vlc5ttbnPFBhztdRKLbW5zxQYc7XUSi21uc8UGHOvxvdeMUwFEABFECBoxSg8R6lNOugAArctwIH7o7Ge6DYLIUCKIACVoDGaxVwFEABFDhQARrvgWKzFAqgwK8q8Jifd+N90a01VznWmGuBCs6bC8Uacy1QwXlzoVhjrgUqOG8uFGvMtUAF582FYo25FqjgvLlQrDHXAhWcNxeKNeZaoILz5kKxxlwLVHDeXCjWmGuBCs6bC8Uacy1QwXlzoVhjrgUqOG8uFGvMtUAF582FYo25FqjgvLnQGH9/+/el+bhdL0qbqxxrzLVABefNhWKNuRao4Ly5UKwx1wIVnDcXijXmWqCC8+ZCscZcC1Rw3lwo1phrgQrOmwvFGnMtUMF5c6FYYy9uvKEEFEABFECBYxRw4/3ufJmWnXOlsTlfx0CFtT7nQrE5X8dAhbU+50KxOV/HQIW1PudCsTlfx0CFtT7nQrE5X8dAhbU+50KxOV/HQIW1PudCsTlfx0CFtT7nQpwjlQhTj3UUiq31OQ9UmPN1FIqt9TkPVJjzdRSKrfU5D1SY83UUiq31OQ9UmPN1FIqt9TkPVJjz96NzoZjz5oEKjbkmFHPePFChMdeEYs6bByo05ppQzHnzQIXGXBOKOW8eqNDYqxuvGIYCKIACKHCUAjTeo5RmHRRAARTYFaDx7kIwoMDVFWD/11GAxnudZ8VOUQAFHkQBGu+DPEhuAwVQ4DoKuPHWc2bvbgE+RtNg7Fdjru24fvcw3s6QujY3p9F7aS4Ua8y1QAXnzYVijbkWqOC8uVCsMdcCFZw3F4o15lqggvPmQrHGXAtUcN5caIwxzn3+Y7D+GFWDsV/t2bm24/rd3+ZuvHMBRhRAARRAgQMUcOOt58zm2u1vibo2ucYffh/O31P95B1QOXbq++N3uXl2toVT96ctsH7/m8SSJnZJfdx4s3sCCjyPAtwpCpyrAI33XP1ZHQVQ4AkVoPE+4UPnllEABc5VgMZ7rv6sflOADAWeRgEa79M8am4UBVDgXhRw4/WZtObZo898Ng/cQvuuaxsdf+Yc3LhdXqv5/ERjrsE3BaxF842Ox35+7d12bdyupo1r8xPOm8M3BZo2rm10PPb7NUa/PzfewYUCnylAHQVQ4OsVcOO95Dm4d1Kw/wc858jzfVOA9/uO3+92Bty1t6fX987f430nECkKoAAKHKKA/8d7yEIs8oUK8FMogAKXVoDGe+nHx+ZRAAWuqACN94pPjT2jAApcWgEa75c9Pn4IBVAABX5OATden6lrPn+hMdfgmwLWovlGRz/HN25X+65r8xPOm8M3BZo2rm10oP8YVYOxX9aq+Y7rd/15uBTwme/mQtOs1Qd3450fYEQBFEABFDhAATfeRz4naAm5v36W0NrYT9XHZx6be2O7n7o/7YH17/j9uerzcePV3jEUQAEUQIGjFKDxHqU066AACqDArsApjXdfmwEFUAAFnlIBGu9TPnZuGgVQ4EwFaLxnqs/aKIACT6mAG+92xmx8OK839gs+PmhjTcZ+OW++4/pdfx4uBdoZSNeEplmr5vBNgaaNaxsdvH9jVA3Gflmr5juu3/Xnf4u78c4fYEQBFEABFDhAATfeU88ptjOcrr2791P3p32cur61aK59TTt1f9oE63POtb0DejVijbkWqOC8uVCsMdcCFZw3F4o15lqggvPVPReKOW8eqNCYa0Ix5x/cjTeUgAIogAIocIwCNN5jdGYVFEABFHhTgMb7JgUJCqDAPSvwSHuj8T7S0+ReUAAFLqEAjfcSj4lNogAKPJICbrw+k9Z83mdjrn0J95nN5vPHNXqt5kKxxlwLVHDeXCjWmGuBCs6bC8Uacy1QwXlzoVhjrgU2bVwL3II/23yj48+cQxy3q63t2vyE8+bwTYGmjWsbHXf+/Nifn1XzsV+Nvbjx7pwBBVAABVDgCAXceD+cMdPCrmmIOW8eqNCYa0Ix580DFRpzTSjmvHmgQmOuCY3RzsC6FrgFf7b5RsdozDX4poC1aL7RO9fP70LzuXmN7d5cE4o5bx6o0JhrQjHnzQMVGnNNKOa8eaBCY64JxZw3D1RozDWhmPPmgQqNuSYUc948UKEx14RizpsHKjTmmlDMefNAhcZcE4o5bx6o0NirG68YhgIo8DgKcCf3rsD/AAAA///ni09eAAAABklEQVQDAIUZ3nbZz4kAAAAAAElFTkSuQmCC" />
+                        </defs>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section class="audience">
+            <div class="container">
+                <div class="audience__content">
+                    <h2 class="audience__title">Kimga kerak?</h2>
+                    <p class="audience__subtitle">Bu intensiv aynan <br> siz uchun, agar</p>
+
+                    <ul class="audience__list">
+                        <li class="audience__item">
+                            <svg class="audience__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.5 10C2.5 5.8575 5.8575 2.5 10 2.5C14.1425 2.5 17.5 5.8575 17.5 10C17.5 14.1425 14.1425 17.5 10 17.5C5.8575 17.5 2.5 14.1425 2.5 10Z"
+                                    stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#D0FE17" />
+                            </svg>
+
+                            <p class="audience__text">Direktda sotuvni boshqarish tartibi</p>
+                        </li>
+                        <li class="audience__item">
+                            <svg class="audience__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.5 10C2.5 5.8575 5.8575 2.5 10 2.5C14.1425 2.5 17.5 5.8575 17.5 10C17.5 14.1425 14.1425 17.5 10 17.5C5.8575 17.5 2.5 14.1425 2.5 10Z"
+                                    stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#D0FE17" />
+                            </svg>
+
+                            <p class="audience__text">Biznesingiz bor, lekin o'sish to'xtab <br> qolgan bo'lsa</p>
+                        </li>
+                        <li class="audience__item">
+                            <svg class="audience__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.5 10C2.5 5.8575 5.8575 2.5 10 2.5C14.1425 2.5 17.5 5.8575 17.5 10C17.5 14.1425 14.1425 17.5 10 17.5C5.8575 17.5 2.5 14.1425 2.5 10Z"
+                                    stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#D0FE17" />
+                            </svg>
+
+                            <p class="audience__text">Muammo qayerdaligini aniq ayta <br> olmayotgan bo'lsangiz</p>
+                        </li>
+                        <li class="audience__item">
+                            <svg class="audience__icon" width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M2.5 10C2.5 5.8575 5.8575 2.5 10 2.5C14.1425 2.5 17.5 5.8575 17.5 10C17.5 14.1425 14.1425 17.5 10 17.5C5.8575 17.5 2.5 14.1425 2.5 10Z"
+                                    stroke-width="1.875" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke="#D0FE17" />
+                            </svg>
+
+                            <p class="audience__text">O'z tajribangiz bilan ochiq <br> bo'lishishga tayyor bo'lsangiz
+                            </p>
+                        </li>
+                    </ul>
+
+                    <img class="plan__bottoms" src="/images/bottom2.avif" loading="lazy" decoding="async" width="350"
+                        height="225" alt="bottomGradient">
+                </div>
+            </div>
+        </section>
+
+        <section class="details">
+            <div class="container">
+                <div class="details__content">
+                    <svg width="350" height="50" viewBox="0 0 350 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g opacity="0.5">
+                            <rect width="350" height="50" fill="url(#pattern0_2210_342)" />
+                        </g>
+                        <defs>
+                            <pattern id="pattern0_2210_342" patternContentUnits="objectBoundingBox" width="1"
+                                height="1">
+                                <use xlink:href="#image0_2210_342" transform="scale(0.00285714 0.02)" />
+                            </pattern>
+                            <image id="image0_2210_342" width="350" height="50" preserveAspectRatio="none"
+                                xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAAyCAYAAAAUarOPAAAD8klEQVR4AezcQY7UMBCFYXcOwIIF5+D+p+AcLFhwABo9VT+NNHqjge7Eie0fqeRWFRMnnxMri1K2L1/bPUV7/Es15R7lpt8pVqn/+PPtnmKV609rrxzXXwKySFHVtvzzk2yUu4pPeraV8/npdwrXdS0pNv8HRgQQQACBPgJsvH2cmQUBBK4u0PH82Hg7YjMVAgggIAE2XikQCCCAQEcBNt6O2EyFAAL/KzDn/99+/2q3FL7cVFOOegl8337eUrTHP1mleJRbqilHvQRkkaKqDT+e30P3r/RsK+f7T79TuJ7uXeV447UQIwIIINBJgD5e+pjp4w73gJ+/1IOp3OL1O9dfAroXUlT14z5t3ngtxIgAAgh0EmDj7QTNNAgggIAF2HgtwYjA4AKc/jgCbLzjrBVnigACkwiw8U6ykFwGAgiMI0AfL32Qh/ZBqmcxhR+RVFNumjr3F/dXuAd44/UTzogAAgh0EqCPN/Rwqi/P/vqdgnoJJBvlqvpxH6Pr6VumyrmuY6WgXgKySlHVz/2TrXL8fQnIIkVVn/fljdeCjAsJcKkInCvAxnuuP7MjgMCCAmy8Cy46l4wAAucKsPGe68/sbwL8QmAZATbeZZaaC0UAgasI0McbeuzoI20336CySLFXPX3LVLm9jp/OXblZji+rFLNcn9YqxejXxxuvV5AxCpBEAIH9BejjpY+X7/GGe8CPWurhVI56CcgiRVWf73Od/e954/UKMyKAAAKdBNh4O0HvOg0HQwCBoQXYeIdePk4eAQRGFGDjHXHVOGcEEBhagI13t+XjQAgggMC/CdDHSx8v30sN94Afn9RDqhz1EpBFiqq2lmrKrV7njdd3ACMCCCDQSWD2Pt6WegyVs69+p6BeAslGuarSpymLFPiUQLJRrqqv3z/pW8TK7XV8nWuKV4/PG68FGRFAAIFOAmy8naCZBgEEELDAKRuvJ2dEAAEEVhRg411x1blmBBA4VYCN91R+JkcAgRUF3vp43/UyGkM9dymol0CyUa6q9DHKIgU+JZBslKsq948sUtgnfYtYOdfT3yp3dp03Xq8AIwIIINBJgD7e8C1W9e3ZX79TUC+BZKNcVV/v09SxUnD8Ekg2ylUVf1mk+MTnfnSdN14LMyKAAAKdBNh4O0EzDQIIIGABNl5LMCKAwKUFZjo5Nt6ZVpNrQQCBIQTYeIdYJk4SAQRmEqCP913/snr8FF5k/U5BvQSSjXJVpQ9VFimm8eH5eep71rzx+glgRAABBDoJbPp2ZQrPn3rglKNeArJIUdXj+yjT2inXa/507coxfwnIIkVVj78/0tzKMX8JyCJFVY9bH954LcyIwDQCXMjVBf4CAAD//zRtN68AAAAGSURBVAMAxTDyqsMTWQMAAAAASUVORK5CYII=" />
+                        </defs>
+                    </svg>
+
+                    <h2 class="details__title"><span class="details__eyebrow">Tafsilotlar</span> <br>
+                        Bepul intensiv va aniq natija</h2>
+
+                    <ul class="details__list">
+                        <li class="details__item">
+                            <svg class="details__icon" width="88" height="88" viewBox="0 0 88 88" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="88" height="88" rx="44" fill="url(#paint0_linear_2210_214)" />
+                                <g clip-path="url(#clip0_2210_214)">
+                                    <path
+                                        d="M30.212 57.788C28.486 56.064 29.63 52.44 28.752 50.316C27.842 48.126 24.5 46.344 24.5 44C24.5 41.656 27.842 39.876 28.752 37.684C29.63 35.562 28.486 31.936 30.212 30.212C31.936 28.486 35.562 29.63 37.684 28.752C39.884 27.842 41.656 24.5 44 24.5C46.344 24.5 48.126 27.842 50.316 28.752C52.44 29.63 56.064 28.486 57.788 30.212C59.514 31.936 58.37 35.56 59.248 37.684C60.158 39.884 63.5 41.656 63.5 44C63.5 46.344 60.158 48.126 59.248 50.316C58.37 52.44 59.514 56.064 57.788 57.788C56.064 59.514 52.44 58.37 50.316 59.248C48.126 60.158 46.344 63.5 44 63.5C41.656 63.5 39.876 60.158 37.684 59.248C35.562 58.37 31.936 59.514 30.212 57.788Z"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path
+                                        d="M41.75 53.75C41.75 52.508 42.758 51.5 44 51.5C45.242 51.5 46.25 52.508 46.25 53.75C46.25 54.992 45.242 56 44 56C42.758 56 41.75 54.992 41.75 53.75Z"
+                                        fill="white" />
+                                    <path
+                                        d="M44 47V45.5C47.314 45.5 50 43.148 50 40.25C50 37.352 47.314 35 44 35C40.686 35 38 37.352 38 40.25V41"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2210_214" x1="9.27231e-07" y1="88" x2="88"
+                                        y2="9.27231e-07" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#151A00" />
+                                        <stop offset="1" stop-color="#8DB000" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_2210_214">
+                                        <rect width="48" height="48" fill="white" transform="translate(20 20)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+                            <h2 class="details__item-title">Mijoz portreti</h2>
+                            <p class="details__text">Mijozingiz kim, nimadan qiynalayotgani <br> va nimani orzu qilishi
+                                bitta sahifada.</p>
+                        </li>
+
+                        <li class="details__item"
+                            style="background: linear-gradient(119.49deg, #8DB000 0%, #151A00 100%);">
+                            <svg class="details__icon" width="88" height="88" viewBox="0 0 88 88" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="88" height="88" rx="44" fill="white" fill-opacity="0.2" />
+                                <g clip-path="url(#clip0_2210_227)">
+                                    <path
+                                        d="M26 44C26 34.058 34.058 26 44 26C53.942 26 62 34.058 62 44C62 53.942 53.942 62 44 62C34.058 62 26 53.942 26 44Z"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path d="M44 33.5V44H54.5" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_2210_227">
+                                        <rect width="48" height="48" fill="white" transform="translate(20 20)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                            <h2 class="details__item-title">30 kunlik reja</h2>
+                            <p class="details__text">O'z biznesingiz uchun kontent va <br> sotuv bo'yicha kun-ma-kun
+                                reja.
+                            </p>
+                        </li>
+
+                        <li class="details__item"
+                            style="background: linear-gradient(308.25deg, #151A00 0%, #3A5200 100%);">
+                            <svg class="details__icon" width="88" height="88" viewBox="0 0 88 88" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect width="88" height="88" rx="44" fill="url(#paint0_linear_2210_239)" />
+                                <g clip-path="url(#clip0_2210_239)">
+                                    <path
+                                        d="M26 56C25.172 56 24.5 55.328 24.5 54.5V33.5C24.5 32.672 25.172 32 26 32H56C56.828 32 57.5 32.672 57.5 33.5V54.5C57.5 55.328 56.828 56 56 56H26Z"
+                                        stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+                                        stroke="white" />
+                                    <path d="M57.5 41L66.5 35V53L57.5 47" stroke-width="3" stroke-linecap="round"
+                                        stroke-linejoin="round" stroke="white" />
+                                </g>
+                                <defs>
+                                    <linearGradient id="paint0_linear_2210_239" x1="88" y1="88" x2="0" y2="0"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#151A00" />
+                                        <stop offset="1" stop-color="#8DB000" />
+                                    </linearGradient>
+                                    <clipPath id="clip0_2210_239">
+                                        <rect width="48" height="48" fill="white" transform="translate(20 20)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+
+
+                            <h2 class="details__item-title">Tayyor taklif matni</h2>
+                            <p class="details__text">Mijoz tilida yozilgan aniq taklif, uni <br> darhol e'lon
+                                qilishingiz mumkin.
+                            </p>
+                        </li>
+                    </ul>
+                    <button class="button registerBtn"
+                        style="max-width: 330px; margin-bottom: 30px; font-size: 16px;">TAKLIFDAN
+                        FOYDALANAMAN</button>
+
+                    <svg width="350" height="50" viewBox="0 0 350 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g opacity="0.5">
+                            <rect width="350" height="50" fill="url(#pattern0_2210_341)" />
+                        </g>
+                        <defs>
+                            <pattern id="pattern0_2210_341" patternContentUnits="objectBoundingBox" width="1"
+                                height="1">
+                                <use xlink:href="#image0_2210_341" transform="scale(0.00285714 0.02)" />
+                            </pattern>
+                            <image id="image0_2210_341" width="350" height="50" preserveAspectRatio="none"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+
+                </div>
+            </div>
+        </section>
+
+
+        <section class="speaker">
+            <div class="container">
+                <div class="speaker__box">
+                    <h2 class="speaker__title">Intensivni <span class="speaker__name">Dostonjon <br> Soyibov</span> olib
+                        boradi</h2>
+                    <div class="speaker__photos">
+                        <img class="speaker__photo" src="/images/speaker.avif" loading="lazy" decoding="async"
+                            width="318" height="225" alt="speaker">
+                    </div>
+
+                    <div class="speaker__bio">
+                        <p class="speaker__text"><b>Dostonjon Soyibov, Buyuk Zamon <br> asoschisi.</b> Intensivni u o'zi
+                            olib boradi va <br>
+                            savollaringizga
+                            javob beradi. <br> <br>
+
+                            Siz bilan bevosita, oddiy tilda va aniq <br> misollar bilan gaplashadi.</p>
+                    </div>
+                    <button class="button registerBtn">BEPUL QATNASHISH</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="signup">
+            <div class="container">
+                <div class="signup__box">
+                    <h2 class="signup__title">Joyingizni hozir band qiling</h2>
+                    <p class="signup__text">Joylar soni cheklangan. Ro'yxatdan <br> o'tganlarga qo'shilish havolasi
+                        yuboriladi.</p>
+                    <button style="font-size: 16px; max-width: 333px;" class="button registerBtn">JOYIMNI BEPUL BAND
+                        QILAMAN</button>
+                </div>
+
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <svg style="margin-bottom: 28px;" width="187" height="15" viewBox="0 0 187 15" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12.5162 7.35019C13.0342 7.35019 13.5102 7.59519 13.9442 8.08519C14.3782 8.56119 14.5952 9.15619 14.5952 9.8702V11.2772C14.5952 12.2152 14.2382 13.0202 13.5242 13.6922C12.8102 14.3642 11.9562 14.7002 10.9622 14.7002H0.000234365V0.000194311H10.6682C11.1582 0.000194311 11.6272 0.0911944 12.0752 0.273195C12.5232 0.455195 12.9082 0.700195 13.2302 1.0082C13.5522 1.31619 13.8112 1.68019 14.0072 2.10019C14.2032 2.52019 14.3012 2.96119 14.3012 3.4232V4.83019C14.3012 5.48819 14.0982 6.07619 13.6922 6.5942C13.2862 7.0982 12.8942 7.35019 12.5162 7.35019ZM9.93324 3.29719H3.27623L3.29723 6.02719H9.97523C10.1292 6.02719 10.2692 5.9992 10.3952 5.94319C10.5352 5.88719 10.6472 5.81719 10.7312 5.7332C10.8292 5.63519 10.8992 5.52319 10.9412 5.39719C10.9832 5.27119 11.0042 5.1382 11.0042 4.9982V4.32619C11.0042 4.1722 10.9762 4.0392 10.9202 3.9272C10.8782 3.8012 10.8152 3.68919 10.7312 3.59119C10.6472 3.49319 10.5352 3.42319 10.3952 3.38119C10.2552 3.32519 10.1012 3.29719 9.93324 3.29719ZM11.2982 10.3952V9.7232C11.2982 9.4152 11.2002 9.1632 11.0042 8.9672C10.8222 8.7712 10.5702 8.67319 10.2482 8.67319H3.27623L3.29723 11.4242H10.2692C10.5912 11.4102 10.8432 11.3122 11.0252 11.1302C11.2072 10.9342 11.2982 10.6892 11.2982 10.3952ZM29.1726 0.000194311H32.4486V9.7022C32.4486 11.0742 31.9586 12.2502 30.9786 13.2302C30.0126 14.2102 28.8366 14.7002 27.4506 14.7002H22.2636C20.8916 14.7002 19.7156 14.2102 18.7356 13.2302C17.7556 12.2502 17.2656 11.0742 17.2656 9.7022V0.000194311H20.5626V9.34519C20.5626 9.9192 20.7586 10.4092 21.1506 10.8152C21.5566 11.2072 22.0466 11.4032 22.6206 11.4032H27.1146C27.6746 11.4032 28.1576 11.2072 28.5636 10.8152C28.9696 10.4092 29.1726 9.9192 29.1726 9.34519V0.000194311ZM51.0852 0.000194311L44.3022 10.8782V14.7002H41.0052V10.8782L34.2222 0.000194311H38.0442L41.9502 6.48919L42.6432 7.7702L43.3572 6.48919L47.2422 0.000194311H51.0852ZM64.6966 0.000194311H67.9726V9.7022C67.9726 11.0742 67.4826 12.2502 66.5026 13.2302C65.5366 14.2102 64.3606 14.7002 62.9746 14.7002H57.7876C56.4156 14.7002 55.2396 14.2102 54.2596 13.2302C53.2796 12.2502 52.7896 11.0742 52.7896 9.7022V0.000194311H56.0866V9.34519C56.0866 9.9192 56.2826 10.4092 56.6746 10.8152C57.0806 11.2072 57.5706 11.4032 58.1446 11.4032H62.6386C63.1986 11.4032 63.6816 11.2072 64.0876 10.8152C64.4936 10.4092 64.6966 9.9192 64.6966 9.34519V0.000194311ZM85.7272 0.000194311L79.2802 7.35019L85.7272 14.7002H81.3802L76.5502 8.67319H74.3452V14.7002H71.0482V0.000194311H74.3452V6.02719H76.5502L81.3802 0.000194311H85.7272Z"
+                        fill="white" />
+                    <path
+                        d="M96.618 0.000194311H111.213V3.31819L100.461 11.5712L101.91 11.4032H111.213V14.7002H96.324V11.3822L107.076 3.1292L105.627 3.29719H96.618V0.000194311ZM126.138 14.7002L125.067 12.1172H117.339L116.268 14.7002H112.719L118.473 0.840195C118.543 0.672194 118.641 0.525194 118.767 0.399194C118.893 0.273194 119.04 0.175194 119.208 0.105194C119.376 0.0351944 119.544 0.000194311 119.712 0.000194311H122.694C122.974 0.000194311 123.226 0.0771945 123.45 0.231195C123.688 0.385195 123.856 0.588195 123.954 0.840195L129.708 14.7002H126.138ZM118.452 9.4712H123.975L121.413 3.29719H121.014L118.452 9.4712ZM145.011 0.399194C145.123 0.133194 145.326 0.000194311 145.62 0.000194311H149.988V14.7002H146.691V7.2242L146.985 2.68819L142.008 14.7002H139.761L134.742 2.68819L135.036 7.2242V14.7002H131.76V0.000194311H136.17C136.464 0.000194311 136.667 0.133194 136.779 0.399194L140.895 10.2692L145.011 0.399194ZM164.574 0.000194311C165.582 0.000194311 166.436 0.357194 167.136 1.07119C167.85 1.77119 168.207 2.62519 168.207 3.63319V11.0672C168.207 12.0752 167.85 12.9362 167.136 13.6502C166.436 14.3502 165.582 14.7002 164.574 14.7002H156.657C155.663 14.7002 154.809 14.3432 154.095 13.6292C153.381 12.9152 153.024 12.0612 153.024 11.0672V3.63319C153.024 2.63919 153.381 1.78519 154.095 1.07119C154.809 0.357194 155.663 0.000194311 156.657 0.000194311H164.574ZM164.931 10.4582V4.24219C164.931 3.97619 164.833 3.75219 164.637 3.57019C164.455 3.38819 164.238 3.29719 163.986 3.29719H157.266C157 3.29719 156.776 3.38819 156.594 3.57019C156.412 3.75219 156.321 3.97619 156.321 4.24219V10.4582C156.321 10.7242 156.412 10.9482 156.594 11.1302C156.776 11.3122 157 11.4032 157.266 11.4032H163.986C164.238 11.4032 164.455 11.3122 164.637 11.1302C164.833 10.9482 164.931 10.7242 164.931 10.4582ZM182.876 0.000194311H186.152V14.7002H182.645C182.253 14.7002 181.952 14.5392 181.742 14.2172L174.434 3.38119L174.56 5.71219V14.7002H171.263V0.000194311H174.77C175.162 0.000194311 175.47 0.161194 175.694 0.483194L182.981 11.3192L182.876 8.9882V0.000194311Z"
+                        fill="#D0FE16" />
+                </svg>
+
+                <p class="footer__disclaimer">Privacy Policy | Terms & Conditions</p> <br>
+                <p class="footer__disclaimer">This site is not a part of the Facebook website <br>
+                    or Facebook Inc. Additionally, This site is <br>
+                    NOT endorsed by Facebook in any way. <br>
+                    FACEBOOK is a trademark of FACEBOOK, Inc.</p> <br>
+                <p class="footer__disclaimer">©2026 All Rights Reserved.</p>
+            </div>
+        </footer>
+    </main>
+
+    <div id="registrationModal" class="homeModal registration-modal" style="display: none">
+        <div class="homeModalOverlay registration-modal__overlay"></div>
+        <div class="homeFormContainer registration-modal__container">
+            <button class="closeButton registration-modal__close" id="closeModalBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 12 12" fill="none">
+                    <path d="M1 11L11 1M1 1.00001L11 11" stroke="currentColor" stroke-width="1.5"
+                        stroke-linecap="round" />
+                </svg>
+            </button>
+            <div class="homeFormTop registration-modal__header">
+                <h1 class="homeFormTopTitle registration-modal__title">
+                    Ro'yxatdan o'tish uchun ma'lumotlaringizni kiriting!
+                </h1>
+            </div>
+            <form id="registrationForm" class="registration-form" name="contact-form">
+
+                <div class="HomeFormRow registration-form__row">
+                    <label class="HomeFormRowLabel registration-form__label" for="name">Ismingiz:</label>
+                    <input class="HomeFormRowInput registration-form__input" type="text" id="name" name="name"
+                        placeholder="Ismingizni kiriting" autocomplete="name" />
+                    <p class="homeFormErrorText registration-form__error" id="nameError" style="display: none">
+                        ❌ Ismingizni kiriting!
+                    </p>
+                </div>
+
+
+                <div class="HomeFormRow registration-form__row">
+                    <label class="HomeFormRowLabel registration-form__label" for="phone">Telefon raqamingiz:</label>
+
+                    <div class="phone-input-container registration-form__phone">
+
+                        <button type="button registerBtn"
+                            class="selected-country registration-form__country-button registerBtn" id="selectedCountry">
+                            <span class="selected-flag registration-form__country-flag"
+                                id="selectedCountryFlag">🇺🇿</span>
+
+                            <svg class="registration-form__dropdown-icon" id="dropdownIcon"
+                                xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <polyline points="6 9 12 15 18 9"></polyline>
+                            </svg>
+                            <span class="selected-code registration-form__country-code"
+                                id="selectedCountryCodeText">+998</span>
+                        </button>
+
+
+                        <div class="country-dropdown registration-form__country-dropdown" id="countryDropdown"
+                            style="display:none"></div>
+
+
+                        <div class="phone-field registration-form__phone-field">
+                            <input
+                                class="HomeFormRowInput phone-input registration-form__input registration-form__input--phone"
+                                type="tel" id="phone" name="phone" inputmode="numeric" placeholder="00 0000 00 00"
+                                autocomplete="tel"
+                                style="border: none; background-color: transparent;padding-left: 5px;" />
+                        </div>
+                    </div>
+
+                    <p class="homeFormErrorText registration-form__error" id="phoneError" style="display:none">
+                        ❌ Telefon raqam mos emas!
+                    </p>
+                </div>
+
+
+                <button type="submit" class="HomeFormBtn registration-form__submit" id="submitBtn">
+                    DAVOM ETISH
+                </button>
+            </form>
+
+        </div>
+    </div>
+
+ <script defer>
+  document.addEventListener("DOMContentLoaded", function () { const registrationModal = document.getElementById("registrationModal"); const registrationForm = document.getElementById("registrationForm"); const registerButtons = document.querySelectorAll(".registerBtn"); const closeModalBtn = document.getElementById("closeModalBtn"); const modalOverlay = document.querySelector(".homeModalOverlay"); registerButtons.forEach(function (button) { button.addEventListener("click", function (e) { if (!button.classList.contains("selected-country")) { if (registrationModal) { registrationModal.style.display = "flex"; } } }); }); if (closeModalBtn) { closeModalBtn.addEventListener("click", function () { registrationModal.style.display = "none"; }); } if (modalOverlay) { modalOverlay.addEventListener("click", function () { registrationModal.style.display = "none"; }); } if (registrationForm) { registrationForm.addEventListener("submit", function (e) { if (typeof fbq === "function") { fbq("track", "CompleteRegistration"); } }); } });
+</script> 
+    <script defer src="./js/phoneFormatter.js"></script>
+    <script defer src="./js/app.js"></script>
+</body>
+
+</html>
